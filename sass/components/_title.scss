@@ -1,0 +1,12 @@
+.title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.title.visible {
+    margin-bottom: 50px;
+}
