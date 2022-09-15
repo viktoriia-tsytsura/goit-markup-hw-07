@@ -28,28 +28,28 @@
           >
           <ul class="nav-list">
             <li>
-              <a href="./index.html" class="nav-list__link">Студія</a>
+              <a href="./index.html" class="nav-list__link nav-list__link_current">Студія</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="nav-list__link nav-list__link_current">Портфоліо</a>
+              <a href="./portfolio.html" class="nav-list__link">Портфоліо</a>
             </li>
             <li>
               <a href="#" class="nav-list__link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts-list">
+        <ul class="contacts-list page-header__contacts-list">
           <li>
-            <a href="mailto:info@devstudio.com" class="contacts-list__link">
-              <svg class="contacts-list__icon" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="contacts-list__link page-header__contacts-link">
+              <svg class="page-header__contacts-icon" width="16" height="12">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="contacts-list__link">
-              <svg class="contacts-list__icon" width="10" height="16">
+            <a href="tel:+380961111111" class="contacts-list__link page-header__contacts-link">
+              <svg class="page-header__contacts-icon" width="10" height="16">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -294,16 +294,14 @@
       </section>
     </main>
 
-   <footer class="page-footer">
+<footer class="page-footer">
       <div class="container page-footer__container">
         <div class="contacts-wrapper">
           
           <a href="./index.html" class="contacts-wrapper__logo logo"
             >Web<span class="logo__logo-footer">Studio</span></a
           >
-          <address>
-            <ul class="contacts_wrapper__contacts-list">
-              <li>
+          <address class="contacts-wrapper__address">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
@@ -311,16 +309,17 @@
                   class="contacts_wrapper__address"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
-              </li>
+                 <ul class="contacts_wrapper__contacts-list contacts-list">
+    
               <li>
                 <a
                   href="mailto:info@devstudio.com"
-                  class="contacts_wrapper__link"
+                  class="contacts_wrapper__link contacts-list__link"
                   >info@devstudio.com</a
                 >
               </li>
     
-                <a href="tel:+380961111111" class="contacts_wrapper__link"
+                <a href="tel:+380961111111" class="contacts_wrapper__link contacts-list__link"
                   >+38 096 111 11 11</a
                 >
               </li>

@@ -22,14 +22,27 @@
     color: var(--color-white);
 }
 
+.contacts-wrapper__address {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
  .contacts_wrapper__contacts-list {
-     display: flex;
      flex-direction: column;
      gap: 9px;
  }
 
 
-.contacts_wrapper__link,
+.contacts_wrapper__link {
+    color: var(--footer-contacts-color);
+    font-style: normal;
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+}
+
  .contacts_wrapper__address {
     color: var(--footer-contacts-color);
     font-style: normal;
